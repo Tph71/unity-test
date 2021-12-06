@@ -17,7 +17,7 @@ public class highpointFinder : MonoBehaviour
     public float spawnerHeight = 15f;
     public string detectedBlock;
 
-    public float Hight;
+    public float Height;
 
     void Start()
     {
@@ -59,8 +59,8 @@ public class highpointFinder : MonoBehaviour
             }
         }
 
-        Hight = blockSpawner.transform.position.y;
-        //Debug.Log(Hight);
+        Height = blockSpawner.transform.position.y;
+        //Debug.Log(Height);
     }
 
     void LateUpdate()

@@ -156,7 +156,7 @@ MonoBehaviour:
   startHeight: 0
   spawnerHeight: 15
   detectedBlock: 
-  Hight: 0
+  Height: 0
 --- !u!4 &41325644
 Transform:
   m_ObjectHideFlags: 0
@@ -2165,7 +2165,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "11.1\n\t"
+  m_Text: "11\n\n\t"
 --- !u!222 &2106694843
 CanvasRenderer:
   m_ObjectHideFlags: 0

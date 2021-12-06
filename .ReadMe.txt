@@ -1,2 +1,25 @@
 要開始編輯專案 請在載入後開啟 ./Assets/Scenes/Scene
 ./build/ 存放遊戲執行檔
+
+2021/12/06
+
+<1>Asia (模擬貓咪)
+
+	component : Asia
+	scripts   : Move.cs => 左右移動 向上跳(接觸"ground"才能) => 有動畫
+	<註> ground  是一個 tag
+	<註> ground :起始的地板  和 *新生成的block
+
+	把新生成的block 的tag設成"ground"	
+	<更改>script : ObjectPoollnstantiator.cs
+	       	       =>line 78 : "poolElement.tag = "Ground";"
+
+<2>UI介面 :顯示最高點
+
+	(1)component : hight        => 單純顯示"height :"
+	(2)component : hight_number => 顯示高度的value
+		       =>script : hightnumber.cs (抓blockSpawner的y值)	
+		       	
+
+		
+	
